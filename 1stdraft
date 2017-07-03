@@ -52,6 +52,7 @@ print "ZZZZZZZZZZZZZzzzzzzzzzzzzzzzz............""\n"
 print "Type a character to get back up"
 ujadnsi = gets.chomp
 print "You wake up to find that you are very dehydrated again!""\n"
+sleep 0.5
 print "You take out your water bottle and chug all the water""\n"
 print "You then think that you need to get water, but then your stomach starts to rumble....""\n"
 print "What do you do, go back and get water [0] or continue to find food[1]?"
