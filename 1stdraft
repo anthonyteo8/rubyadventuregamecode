@@ -73,7 +73,7 @@ puts "You see a water source in the distance and start running to it"
 puts "You get there and start drinking like an animal"
 puts "After you finish drinking you are starting to feel tired"
 puts "You slowly fall asleep on the side of the water source"
-sleep 10
+sleep 1000
 print "zzzzzzzzzzzzzzzzzzzzz""\n"
 print "*Type a character to continue*"
 character3 = gets.chomp
