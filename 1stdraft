@@ -41,6 +41,7 @@ case choice3a
 when "0"
 print "You sit down, but after a while you fall asleep""\n"
 print "Even though it is in the blazing heat""\n"
+sleep 0.3
 print "ZZZZZZZZZZZZZZZzzzzzzzzzzzzzzzzzz...........""\n"
 print "Type a character to wake up"
 sumthing = gets.chomp
