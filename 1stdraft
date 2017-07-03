@@ -1,0 +1,80 @@
+print "Welcome to a choose your own adventure test!!!""\n"
+print "Type a character here to start"
+character = gets.chomp
+print "First Before you start you need to know the rules!""\n"
+print "When a question has numbers in brackets like this [1], it means it wants you to choose a number inside and that is it""\n"
+print "Well that is all you need to know, type a character when you are done"
+character1 = gets.chomp
+print "You are in a post-apocolyptic world and you can only see ruin around you""\n"
+print "You are lying on the floor, weak, hungry and thirsty""\n"
+print "Do you, Just stay still and die [0] or get up and hunt for food and water [1]?"
+first_choice = gets
+first_choice = first_choice.to_i
+case first_choice
+when 0 
+puts "You chose to lay on the ground and you died"
+puts "No one was there to bury you so you eventually decomposed and became one with the Earth"
+puts "STORY HAS ENDED"
+print "Type a character here once you are ready to leave""\n"
+first_leave = gets.chomp
+print "*You have finished the story!*""\n"
+print "If you wish to play again simply reload the script!"
+when 1
+puts "You get up"
+puts "You are completely dehydrated and desperatly need water"
+puts "You start walking around for while and eventually see an area that looks like a water source"
+puts "You rush over and see that the water is dirty"
+puts "You think to yourself is you want to drink it, or if you want to try and find another water source"
+print "Will you drink it yes[0] or no [1]?"
+second_choice = gets
+second_choice = second_choice.to_i
+case second_choice
+when 0 
+puts "You cup your hands and start to drink from the source desperatly"
+puts "After you have finished drinking you take out a water bottle and fill it up with the water"
+puts "You then walk away from the water source in search for some food"
+puts "While you are walking along you start to feel as if you have a stomach ache"
+puts "You also start to feel queasy and light headed"
+puts "You have 2 choices, either sit down [0] or continue walking [1]"
+choice3a = gets.chomp
+case choice3a
+when "0"
+print "You sit down, but after a while you fall asleep""\n"
+print "Even though it is in the blazing heat""\n"
+print "ZZZZZZZZZZZZZZZzzzzzzzzzzzzzzzzzz...........""\n"
+print "Type a character to wake up"
+sumthing = gets.chomp
+when "1"
+print "You continue walking through the hot and blazing heat""\n"
+print "After what has felt like 2 hours of walking you faint and fall to the ground""\n"
+print "ZZZZZZZZZZZZZzzzzzzzzzzzzzzzz............""\n"
+print "Type a character to get back up"
+ujadnsi = gets.chomp
+print "You wake up to find that you are very dehydrated again!""\n"
+print "You take out your water bottle and chug all the water""\n"
+print "You then think that you need to get water, but then your stomach starts to rumble....""\n"
+print "What do you do, go back and get water [0] or continue to find food[1]?"
+foodorwater = gets.chomp
+case foodorwater
+when "0"
+print "You walk back to get some more water only to find that all the water is gone!!!""\n"
+print "You then have to decide whether to go and find some more water[0] or go back and continue your search for food[1]?"
+when "1"
+print "You continue to search for food, until you see a wild deer!""\n"
+print "The deer is lying on the ground, looking like it's legs are broken and slowly dying""\n"
+print "You now have to decide whether to kill it and eat it [0] or help the deer [1]?"
+end
+end
+
+when 1 
+puts "You continue walking to try and find another source"
+puts "You struggle accross the uneven terrain"
+puts "You see a water source in the distance and start running to it"
+puts "You get there and start drinking like an animal"
+puts "After you finish drinking you are starting to feel tired"
+puts "You slowly fall asleep on the side of the water source"
+print "zzzzzzzzzzzzzzzzzzzzz""\n"
+print "*Type a character to continue*"
+character3 = gets.chomp
+end
+end
